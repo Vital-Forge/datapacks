@@ -1,0 +1,51 @@
+.craft {
+    display: flex;
+    position: relative;
+    margin: 25px auto;
+    width: 444px;
+}
+.craft_shape {
+    list-style: none;
+    grid-template: 48px 48px 48px / 48px 48px 48px;
+    display: grid;
+    gap: 6px;
+    margin: 51px;
+}
+.craft_place {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.craft_shape li {
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+.craft_shape li img {
+    
+    width: 44px;
+}
+.craft img {
+    position: absolute;
+    z-index: -1;
+}
+.craft_title {
+    left: 18px;
+    top: 18px;
+    color: #444;
+    position: absolute;
+    font-weight: bold;
+    font-size: 18px;
+}
+.craft_result {
+    width: 76px;
+    display: flex;
+    padding: 49px;
+    justify-content: center;
+    align-items: center;
+}
+.craft_result img {
+    z-index: inherit;
+    width: 64px;
+}

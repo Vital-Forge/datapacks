@@ -1,0 +1,16 @@
+.inventory_items {
+    display: flex;
+    list-style: none;
+}
+.inventory_item {
+    background: url(/assets/images/recipe_slot_0.png) no-repeat;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inventory_item img {
+    height: 32px;
+    margin: 0 2px 2px 0;
+}
