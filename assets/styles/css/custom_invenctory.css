@@ -3,7 +3,7 @@
     list-style: none;
 }
 .inventory_item {
-    background: url(/assets/images/recipe_slot_0.png) no-repeat;
+    background: url(../../images/recipe_slot_0.png) no-repeat;
     height: 50px;
     width: 50px;
     display: flex;
